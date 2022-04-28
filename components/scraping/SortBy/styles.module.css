@@ -1,0 +1,18 @@
+.fieldset {
+  border: none;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.select {
+  background: transparent;
+  border: none;
+}
+
+.option {
+  background: transparent;
+  border: none;
+  color: #7928ca;
+}

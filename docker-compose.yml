@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  next-app:
+    container_name: scraping-front
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    restart: always
+    ports:
+      - 3001:3000
