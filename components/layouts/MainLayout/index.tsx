@@ -7,14 +7,14 @@ type Props = {
   title?: string
 }
 
-export const MainLayout: FC<PropsWithChildren<Props>> = ({ children, title = 'Pokemon App' }) => {
+export const MainLayout: FC<PropsWithChildren<Props>> = ({ children, title = 'Scrapping App' }) => {
   return (
     <>
       <Head>
         <title>{ title }</title>
         <meta name="author" content="Miguel Bermell" />
-        <meta name="description" content={`Información sobre el pokémon ${ title }`} />
-        <meta name="keywords" content={ `${title}, pokemon, pokedex` } />
+        <meta name="description" content={`Producto ${ title }`} />
+        <meta name="keywords" content={ `${title}, ítem` } />
       </Head>
 
       <NavBar />
